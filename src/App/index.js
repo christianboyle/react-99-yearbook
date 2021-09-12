@@ -2,19 +2,6 @@ import React, { Component } from 'react';
 import { Carousel } from '3d-react-carousal';
 import './style.css';
 
-// const elements = [...Array(212).keys()].map((x) => ++x);
-
-// const padded = numbers.forEach(function (number, index) {
-//   String(number).padStart(4, '0');
-// });
-
-// const items = [];
-
-// for (const [index, value] of elements.entries()) {
-//   items.push(<Element key={index} />);
-
-// }
-
 const numbers = [...Array(212).keys()].map((x) => ++x);
 
 function padded() {
